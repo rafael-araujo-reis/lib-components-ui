@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ui-button',
   template: `
-    <p>
-      button works!
-    </p>
+    <button [disabled]="disabled">
+      {{ description }}
+    </button>
   `,
-  styles: [
-  ]
+  styles: [],
 })
 export class ButtonComponent {
-
+  @Input() description: string;
+  @Input() disabled: boolean;
 }
