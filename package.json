@@ -10,7 +10,7 @@
     "deploy": "npm version patch && npm publish",
     "feature": "npm version minor && npm publish"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^15.1.0",
     "@angular/common": "^15.1.0",
