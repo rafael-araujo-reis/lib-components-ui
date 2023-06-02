@@ -26,6 +26,10 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
     "useDefineForClassFields": false,
     "strictPropertyInitialization": false,
     "lib": [
