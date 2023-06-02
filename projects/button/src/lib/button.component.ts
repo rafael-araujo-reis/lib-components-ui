@@ -10,6 +10,6 @@ import { Component, Input } from '@angular/core';
   styles: [],
 })
 export class ButtonComponent {
-  @Input() description: string;
-  @Input() disabled: boolean;
+  @Input() description: string = '';
+  @Input() disabled: boolean = false;
 }
